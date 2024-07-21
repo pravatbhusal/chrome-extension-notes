@@ -11,3 +11,6 @@ There are 3 main contexts for chrome extensions:
 Configuration file that defines the name, description, structure, behavior, and settings of the chrome extension.
 
 Read more in the Google dev docs: https://developer.chrome.com/docs/extensions/reference/manifest
+
+### Loading Extension for Development
+Visit the chrome://extensions/ page and click "Load unpakced" then open the folder with the manifest.json file. If you want to reload the extension after making changes, you can click the refresh button on the extension.
