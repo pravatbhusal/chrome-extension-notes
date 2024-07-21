@@ -1,2 +1,2 @@
-# chrome-extension-notes
-Notes for learning how to develop chrome extensions
+# Chrome Extension Notes
+This repository is a collection of my notes on how to develop chrome extensions. Chrome extensions are developed with the WebExtensions API, which provide compatibility across all the main browsers (i.e. Chrome, Firefox, Safari), so extensions should run on any browser with minimal changes.
