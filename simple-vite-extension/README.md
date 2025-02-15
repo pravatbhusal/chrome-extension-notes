@@ -17,7 +17,7 @@ npm run build
 
 The build command will compile the Typescript files using `tsc` and then bundle the code using `vite build`. It also copies everything from the `public` folder to the `dist` folder. The `public` folder should include your manifest.json file, which is the configuration file for your chrome extension.
 
-Lastly, upload the `dist` folder on the chrome://extensions/ web page in the Chrome browser to test your chrome extension.
+Lastly, "Load unpacked" the `dist` folder on the chrome://extensions/ web page in the Chrome browser to test your chrome extension. Load unpacked is used to load an extension that is not published on the Chrome Web Store and typically all of the source files are available on the local file system. This is helpful for debugging and development.
 
 # Why Vite?
 
